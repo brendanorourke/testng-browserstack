@@ -57,7 +57,7 @@ public class BrowserStackTestNGTest {
             }
         }
 
-        String username = System.getenv("BROWSERSTACK_USERNAME");
+        String username = System.getenv("BROWSERSTACK_USER");
         if(username == null) {
             username = (String) config.get("user");
         }
